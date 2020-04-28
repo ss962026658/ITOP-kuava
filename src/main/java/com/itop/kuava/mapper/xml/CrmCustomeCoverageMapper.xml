@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itop.kuava.mapper.CrmCustomeCoverageMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.itop.kuava.entity.CrmCustomeCoverage">
+        <id column="Id" property="Id" />
+        <result column="AccountId" property="AccountId" />
+        <result column="ImgUrl" property="ImgUrl" />
+        <result column="LinkUrl" property="LinkUrl" />
+        <result column="Source" property="Source" />
+        <result column="Title" property="Title" />
+        <result column="CreateTime" property="CreateTime" />
+        <result column="ReadSum" property="ReadSum" />
+    </resultMap>
+
+</mapper>

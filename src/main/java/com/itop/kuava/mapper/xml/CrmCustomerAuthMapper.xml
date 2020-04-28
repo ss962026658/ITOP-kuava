@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itop.kuava.mapper.CrmCustomerAuthMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.itop.kuava.entity.CrmCustomerAuth">
+        <id column="Id" property="Id" />
+        <result column="AccountId" property="AccountId" />
+        <result column="IdCardCode" property="IdCardCode" />
+        <result column="RealName" property="RealName" />
+        <result column="IdCardImg1" property="IdCardImg1" />
+        <result column="IdCardImg2" property="IdCardImg2" />
+        <result column="IdCardImg3" property="IdCardImg3" />
+        <result column="CreateTime" property="CreateTime" />
+        <result column="Checked" property="Checked" />
+        <result column="AuthMsg" property="AuthMsg" />
+        <result column="CheckUser" property="CheckUser" />
+        <result column="CheckTime" property="CheckTime" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itop.kuava.mapper.NewsTodayHotMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.itop.kuava.entity.NewsTodayHot">
+        <id column="Id" property="Id" />
+        <result column="ObjectId" property="ObjectId" />
+        <result column="CreateTime" property="CreateTime" />
+        <result column="ObjectType" property="ObjectType" />
+        <result column="AccountId" property="AccountId" />
+        <result column="Checked" property="Checked" />
+        <result column="StartTime" property="StartTime" />
+        <result column="Place" property="Place" />
+        <result column="FPage" property="FPage" />
+        <result column="Explain" property="Explain" />
+        <result column="Score" property="Score" />
+        <result column="RechargeScore" property="RechargeScore" />
+        <result column="RewardScore" property="RewardScore" />
+        <result column="CreaterId" property="CreaterId" />
+    </resultMap>
+
+</mapper>

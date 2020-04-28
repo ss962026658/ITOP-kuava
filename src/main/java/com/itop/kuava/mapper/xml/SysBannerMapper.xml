@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itop.kuava.mapper.SysBannerMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.itop.kuava.entity.SysBanner">
+        <id column="Id" property="Id" />
+        <result column="AccountId" property="AccountId" />
+        <result column="ImgUrl" property="ImgUrl" />
+        <result column="LinkUrl" property="LinkUrl" />
+        <result column="CreateTime" property="CreateTime" />
+        <result column="Place" property="Place" />
+        <result column="Context" property="Context" />
+        <result column="StartTime" property="StartTime" />
+        <result column="EndTime" property="EndTime" />
+        <result column="SaleStatus" property="SaleStatus" />
+        <result column="Checked" property="Checked" />
+        <result column="FPage" property="FPage" />
+        <result column="Title" property="Title" />
+        <result column="Explain" property="Explain" />
+        <result column="Score" property="Score" />
+        <result column="RechargeScore" property="RechargeScore" />
+        <result column="RewardScore" property="RewardScore" />
+        <result column="CreaterId" property="CreaterId" />
+        <result column="ReadSum" property="ReadSum" />
+        <result column="ModifyUser" property="ModifyUser" />
+        <result column="FPageName" property="FPageName" />
+        <result column="PlaceName" property="PlaceName" />
+    </resultMap>
+
+</mapper>

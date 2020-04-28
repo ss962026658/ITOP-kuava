@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: KuavaApplication
+  datasource:
+    url: jdbc:mysql://39.99.158.87:3306/ITop?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: Yang320623+-@$
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    platform: mysql
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath*:mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+
+server:
+  port: 80
+
+logging:
+  level:
+    root: info
+    com.onion.user.service.mapper: debug
+  file:
+    path: ./mylog
+
+
+debug: true

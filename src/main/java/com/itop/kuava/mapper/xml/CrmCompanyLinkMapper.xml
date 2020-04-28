@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itop.kuava.mapper.CrmCompanyLinkMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.itop.kuava.entity.CrmCompanyLink">
+        <id column="Id" property="Id" />
+        <result column="AccountId" property="AccountId" />
+        <result column="WeiXin" property="WeiXin" />
+        <result column="Mobile" property="Mobile" />
+        <result column="Phone" property="Phone" />
+        <result column="LinkName" property="LinkName" />
+        <result column="EMail" property="EMail" />
+        <result column="WhatsApp" property="WhatsApp" />
+    </resultMap>
+
+</mapper>

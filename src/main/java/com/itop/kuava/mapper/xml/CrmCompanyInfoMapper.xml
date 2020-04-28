@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itop.kuava.mapper.CrmCompanyInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.itop.kuava.entity.CrmCompanyInfo">
+        <id column="Id" property="Id" />
+        <result column="AccountId" property="AccountId" />
+        <result column="MediaName" property="MediaName" />
+        <result column="CompanyName" property="CompanyName" />
+        <result column="EstablishDate" property="EstablishDate" />
+        <result column="DownLoadUrl" property="DownLoadUrl" />
+        <result column="CompanyUrl" property="CompanyUrl" />
+        <result column="Introduction" property="Introduction" />
+        <result column="PrizeRecord" property="PrizeRecord" />
+        <result column="DataStatus" property="DataStatus" />
+        <result column="CreateTime" property="CreateTime" />
+        <result column="ImgUrl" property="ImgUrl" />
+        <result column="SLogan" property="SLogan" />
+        <result column="BusinessImgUrl" property="BusinessImgUrl" />
+        <result column="Email" property="Email" />
+        <result column="RealName" property="RealName" />
+        <result column="IdentityCard" property="IdentityCard" />
+        <result column="IdentityImg1" property="IdentityImg1" />
+        <result column="IdentityImg2" property="IdentityImg2" />
+        <result column="OrganizationCode" property="OrganizationCode" />
+        <result column="Mobile" property="Mobile" />
+        <result column="ConcernNum" property="ConcernNum" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itop.kuava.mapper.CrmCustomerInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.itop.kuava.entity.CrmCustomerInfo">
+        <id column="Id" property="Id" />
+        <result column="AccountId" property="AccountId" />
+        <result column="HeadImg" property="HeadImg" />
+        <result column="CnName" property="CnName" />
+        <result column="EnName" property="EnName" />
+        <result column="AliasName" property="AliasName" />
+        <result column="Nationality" property="Nationality" />
+        <result column="Constellation" property="Constellation" />
+        <result column="BirthPlace" property="BirthPlace" />
+        <result column="BirthDate" property="BirthDate" />
+        <result column="Occupation" property="Occupation" />
+        <result column="University" property="University" />
+        <result column="Introduction" property="Introduction" />
+        <result column="EducationalExperience" property="EducationalExperience" />
+        <result column="PrizeRecord" property="PrizeRecord" />
+        <result column="DataStatus" property="DataStatus" />
+        <result column="CreateTime" property="CreateTime" />
+        <result column="Gender" property="Gender" />
+        <result column="Mobile" property="Mobile" />
+        <result column="Email" property="Email" />
+        <result column="WorkDate" property="WorkDate" />
+        <result column="WorkStatus" property="WorkStatus" />
+        <result column="LiveAddress" property="LiveAddress" />
+        <result column="WorkExperience" property="WorkExperience" />
+        <result column="ProjectExperience" property="ProjectExperience" />
+        <result column="Context" property="Context" />
+        <result column="YearMoney" property="YearMoney" />
+        <result column="Political" property="Political" />
+        <result column="ResumeImg" property="ResumeImg" />
+        <result column="ConcernNum" property="ConcernNum" />
+        <result column="Weibo" property="Weibo" />
+        <result column="Facebook" property="Facebook" />
+        <result column="ProvinceId" property="ProvinceId" />
+        <result column="ProvinceName" property="ProvinceName" />
+        <result column="CityId" property="CityId" />
+        <result column="CityName" property="CityName" />
+        <result column="AreaId" property="AreaId" />
+        <result column="AreaName" property="AreaName" />
+    </resultMap>
+
+</mapper>

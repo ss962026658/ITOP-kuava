@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itop.kuava.mapper.SysModuleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.itop.kuava.entity.SysModule">
+        <id column="Id" property="Id" />
+        <result column="FParentId" property="FParentId" />
+        <result column="FLayers" property="FLayers" />
+        <result column="FEnCode" property="FEnCode" />
+        <result column="FFullName" property="FFullName" />
+        <result column="FDataStatus" property="FDataStatus" />
+    </resultMap>
+
+</mapper>
